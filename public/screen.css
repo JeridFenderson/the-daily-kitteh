@@ -40,7 +40,9 @@ nav a {
 }
 
 main {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
 main h2 {
@@ -48,10 +50,14 @@ main h2 {
 }
 
 figure {
-  float: left;
   width: 30vw;
-  padding: 1em;
+  padding: 0.2em;
   border: 0.1em solid rgb(0, 205, 223);
+}
+
+section {
+  width: 60vw;
+  padding: 0.5em;
 }
 
 img {
@@ -60,7 +66,6 @@ img {
 }
 
 footer {
-  clear: both;
   background-color: rgb(216, 216, 216);
 }
 
